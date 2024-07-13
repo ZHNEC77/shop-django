@@ -1,0 +1,613 @@
+[
+{
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+        "name": "Apple iPhone 15 Pro Max 1024 ГБ",
+        "description": "Аппаратной основой Apple iPhone 15 Pro Max стал 3-нанометровый чипсет A17 Pro с 6-ядерным GPU и поддержкой трассировки лучей. Чип выдает высочайшую производительность в играх. Также имеется 16-ядерный Neural Engine, который обрабатывает 35 миллионов операций в секунду.",
+        "price": 230000,
+        "quantity": 0,
+        "image": "products_images/iphone15.jpg",
+        "stripe_product_price_id": "price_1OsYxRDuLiGSlCjA0jzThedT",
+        "category": 1
+    }
+},
+{
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+        "name": "Samsung Galaxy S24 Ultra 1024 ГБ",
+        "description": "Galaxy S24 Ultra с инновационной 200 МП камерой и встроенным искусственным интеллектом устанавливает стандарт качества съемки. Процессор ProVisual распознает объекты, улучшает цветовой тон, уменьшая шум и подчеркивая детали. Наслаждайтесь каждым снимком, снятым на Galaxy S24 Ultra",
+        "price": 185000,
+        "quantity": 0,
+        "image": "products_images/samsung_s24_ultra.jpg",
+        "stripe_product_price_id": "price_1OsZ2PDuLiGSlCjA1nqnaVUS",
+        "category": 1
+    }
+},
+{
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+        "name": "Samsung Galaxy Z Fold5 512 ГБ",
+        "description": "Смартфон Samsung Galaxy Z Fold5 512 ГБ объединяет функционал смартфона и планшетного компьютера. Особенность модели – складной корпус с двумя экранами. Внутренний экран основан на панели с диагональю 7.6 дюйма по технологии Dynamic AMOLED 2X, а дополнительный дисплей на внешней стороне имеет диагональ 6.2 дюйма. Устройство выполнено в корпусе черного цвета с защитой IPX8, что делает его устойчивым к погружению в воду на глубину до 1.5 м и воздействию пыли.",
+        "price": 175000,
+        "quantity": 0,
+        "image": "products_images/samsung_galaxy_z_fold5_nAuYbOT.jpg",
+        "stripe_product_price_id": "price_1OsZ5dDuLiGSlCjA9qXbmdK9",
+        "category": 1
+    }
+},
+{
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+        "name": "Xiaomi 14 512 ГБ",
+        "description": "Xiaomi 14 довольно компактный. Смартфон получил 6,36-дюймовый AMOLED-дисплей S8 CSOT от TCL с разрешением 2670 × 1200 пикселей, кадровой частотой от 1 до 120 Гц и рекордной в отрасли пиковой яркостью 3000 нит. Тыльная камера тройная, все три датчика 50-мегапиксельные.",
+        "price": 105000,
+        "quantity": 0,
+        "image": "products_images/xiaomi_14.jpg",
+        "stripe_product_price_id": "price_1OsZCuDuLiGSlCjArNYzEk0Z",
+        "category": 1
+    }
+},
+{
+    "model": "products.product",
+    "pk": 5,
+    "fields": {
+        "name": "Huawei P60 Pro 12+512 ГБ",
+        "description": "Смартфон Huawei P60 Pro 12+512GB Black (MNA-LX9) оснащен восьмиядерным процессором и оперативной памятью объемом 12 ГБ. За счет этого достигается плавный запуск приложений и программ при работе в режиме многозадачности. Для хранения аудио- и видеофайлов предусмотрено 512 ГБ оперативной памяти. Модель оборудована основной камерой с разрешением 48+48+13 Мп, посредством которой можно создать яркие фотографии с применением различных фильтров.",
+        "price": 80000,
+        "quantity": 0,
+        "image": "products_images/huawei_p60_pro.jpg",
+        "stripe_product_price_id": "price_1OsjAGDuLiGSlCjA0w86rhgy",
+        "category": 1
+    }
+},
+{
+    "model": "products.product",
+    "pk": 6,
+    "fields": {
+        "name": "HONOR 90 512 ГБ",
+        "description": "Смартфон HONOR 90 512 ГБ выполнен в черном корпусе из стекла. На экране диагональю 6.7 дюйма с панелью AMOLED передается реалистичное изображенияе с яркими и естественными оттенками. Основная камера состоит из датчика 200 Мп, широкоугольного сенсора на 12 Мп и датчика глубины 2 Мп. Совместно с системой электронной стабилизации она позволяет делать реалистичные фотографии и видео. Для селфи на передней стороне установлена камера 50 Мп с портретным режимом, таймером, фотофильтрами.",
+        "price": 45000,
+        "quantity": 0,
+        "image": "products_images/honor_90.jpg",
+        "stripe_product_price_id": "price_1OsjDCDuLiGSlCjAQlY8Zxrm",
+        "category": 1
+    }
+},
+{
+    "model": "products.product",
+    "pk": 8,
+    "fields": {
+        "name": "POCO F5 Pro 512 ГБ",
+        "description": "Смартфон POCO F5 Pro 512 ГБ выполнен в корпусе из металла и стекла, устойчивом к воздействию пыли и влаги. Благодаря процессору Snapdragon 8+ и 12 ГБ оперативной памяти устройство демонстрирует скорость, плавное взаимодействие с приложениями и стабильную обработку требовательных ресурсов. Система охлаждения с испарительной камерой эффективно рассеивает тепло.",
+        "price": 60000,
+        "quantity": 0,
+        "image": "products_images/poco_fF5_pro.jpg",
+        "stripe_product_price_id": "price_1OsjPRDuLiGSlCjAhlfTY3QZ",
+        "category": 1
+    }
+},
+{
+    "model": "products.product",
+    "pk": 9,
+    "fields": {
+        "name": "Фитнес-браслет Xiaomi Smart Band 8",
+        "description": "Фитнес-браслет Xiaomi Smart Band 8 определяет пройденное расстояние, содержание кислорода в крови, пульс, уровень стресса. Информация отображается на сенсорном 1.62-дюймовом дисплее. Предусмотрена возможность выбора подходящей среди 150 предустановленных тренировок. Во время фиксации на запястье используется регулируемый силиконовый ремешок.",
+        "price": 3500,
+        "quantity": 0,
+        "image": "products_images/xiaomi_smart_band_8.jpg",
+        "stripe_product_price_id": "price_1OsjSsDuLiGSlCjAGzpCG2Mn",
+        "category": 2
+    }
+},
+{
+    "model": "products.product",
+    "pk": 10,
+    "fields": {
+        "name": "Смарт-часы HUAWEI WATCH GT 4 46mm",
+        "description": "Смарт-часы HUAWEI WATCH GT 4 46mm выполнены в корпусе из нержавеющей стали с водонепроницаемостью 5 Бар и степенью защиты IP68, что делает их устойчивыми к повреждениям, воздействию влаги и воды. Сенсорный экран диагональю 1.43\" обеспечивает красочное изображение и интуитивное управление прикосновениями. В модели реализованы функции ответа на звонки и управления проигрыванием музыки. Аккумулятор позволяет часам работать без подзарядки до 192 часов в активном режиме. Он поддерживает функции ускоренной и беспроводной зарядки.",
+        "price": 16000,
+        "quantity": 0,
+        "image": "products_images/huawei_watch_gt_4.jpg",
+        "stripe_product_price_id": "price_1OsjVGDuLiGSlCjAW76dOFzt",
+        "category": 2
+    }
+},
+{
+    "model": "products.product",
+    "pk": 11,
+    "fields": {
+        "name": "Смарт-часы Apple Watch Series 8 41mm",
+        "description": "Осуществлять непрерывный контроль показателей здоровья помогут смарт-часы Apple Watch Series 8. Закрепите их на запястье посредством регулируемого ремешка и проступайте к использованию. Выполненный из алюминия корпус защищен по стандарту IP6X, что придает устойчивость к проникновению влаги. Ответственность за отображение информации возьмет на себя OLED-дисплей разрешением 430x352 пикселей.",
+        "price": 35000,
+        "quantity": 0,
+        "image": "products_images/apple_watch_series_8.jpg",
+        "stripe_product_price_id": "price_1OsjXTDuLiGSlCjAKIoWdVIF",
+        "category": 2
+    }
+},
+{
+    "model": "products.product",
+    "pk": 12,
+    "fields": {
+        "name": "Смарт-часы Samsung Galaxy Watch6 Classic 47mm",
+        "description": "Смарт-часы Samsung Galaxy Watch6 Classic 47mm понравятся даже самым экстремальным пользователям. Сапфировое стекло Sapphire Crystal Glass не повредится при механических воздействиях, также ему не страшны дождь и ультрафиолет. Увеличенный экран обладает диагональю 1.5 дюйма (4.7 см). Он изготовлен по технологии Super AMOLED. Данные транслируются крупными цифрами.",
+        "price": 34000,
+        "quantity": 0,
+        "image": "products_images/samsung_galaxy_watch_6_classic.jpg",
+        "stripe_product_price_id": "price_1OsjZkDuLiGSlCjA5HRWOmJp",
+        "category": 2
+    }
+},
+{
+    "model": "products.product",
+    "pk": 13,
+    "fields": {
+        "name": "Фитнес-браслет Xiaomi Mi Smart Band 7",
+        "description": "Фитнес-браслет Xiaomi Mi Smart Band 7 станет надежным помощником для активного пользователя, так как способен измерять различные показатели физической деятельности своего владельца (мониторинг сердечного ритма, уровень кислорода в крови, трекер сна, отслеживание женского цикла) и получать уведомления со смартфона. Он оснащен сенсорным дисплеем AMOLED диагональю 1.65 дюйма с четкой цветной картинкой. Корпус устройства отличается устойчивостью к повреждениям и водонепроницаемостью 5 Бар.",
+        "price": 3200,
+        "quantity": 0,
+        "image": "products_images/xiaomi_mi_smart_band_7.jpg",
+        "stripe_product_price_id": "price_1OsjhGDuLiGSlCjAN13bAo2e",
+        "category": 2
+    }
+},
+{
+    "model": "products.product",
+    "pk": 14,
+    "fields": {
+        "name": "Смарт-часы HUAWEI WATCH Ultimate",
+        "description": "Смарт-часы HUAWEI WATCH Ultimate оснащен сенсорным дисплеем 1.5 дюйма. Панель AMOLED воспроизводит красочное и детализированное изображение. Встроенные датчики обеспечивают анализ ЭКГ, мониторинг сердечного ритма, измерение кислорода в крови, контроль качества сна. Корпус из циркония и керамики отличается водонепроницаемостью, поэтому устойчив к неблагоприятным воздействиям.",
+        "price": 60000,
+        "quantity": 0,
+        "image": "products_images/huawei_watch_ultimate.jpg",
+        "stripe_product_price_id": "price_1OsjjDDuLiGSlCjAq8JV7X5n",
+        "category": 2
+    }
+},
+{
+    "model": "products.product",
+    "pk": 15,
+    "fields": {
+        "name": "Смарт-часы Apple Watch Ultra 2 49mm",
+        "description": "Смарт-часы Apple Watch Ultra 2 49mm подходят для пользователей, которые не хотят ежедневно заряжать устройство. На них установлен Li-Ion-акккумулятор емкостью 564 мА·ч. Его полного заряда хватает на 36 ч активного пользования и 72 ч работы в режиме ожидания. Для подключения к сети модель использует модуль Wi-Fi. Технология NFC позволяет совершать бесконтактную оплату. Через Bluetooth-канал часы подключаются к смартфону на iOS 16 и выше.\r\nКорпус Apple Watch Ultra 2 49mm серого цвета сделан и титана и защищен от пыли по стандарту IP6X.",
+        "price": 100000,
+        "quantity": 0,
+        "image": "products_images/apple_watch_ultra_2.jpg",
+        "stripe_product_price_id": "price_1OsjkuDuLiGSlCjAURdsDdNf",
+        "category": 2
+    }
+},
+{
+    "model": "products.product",
+    "pk": 16,
+    "fields": {
+        "name": "Наушники TWS Apple AirPods Pro 2",
+        "description": "Наушники TWS Apple AirPods Pro 2 обладают силиконовыми амбушюрами, которые обеспечивают плотное прилегание к ушному каналу. Спрятанный в пластиковом корпусе микрофон служит для приема вызовов. Защита по стандарту IPX4 исключает риск негативного воздействия брызг.",
+        "price": 26000,
+        "quantity": 0,
+        "image": "products_images/apple_airpods_pro_2_.jpg",
+        "stripe_product_price_id": "price_1OskQ7DuLiGSlCjAaOfdXkXw",
+        "category": 3
+    }
+},
+{
+    "model": "products.product",
+    "pk": 17,
+    "fields": {
+        "name": "Наушники TWS Samsung Buds 2 Pro",
+        "description": "Наушники TWS Samsung Buds 2 Pro передают сигнал со смартфона посредством Bluetooth 5.3 с радиусом действия до 10 м. Модель обеспечивает качественное и всестороннее звучания, позволяя погрузиться в увиденное. Устройство передает пространственное звучание и поддерживает технологию аудио 360, благодаря чему звук зависит от положения головы и контента. При открытии крышки зарядного футляра на экране появляется уведомление о подключении. Управлять громкостью, порядком воспроизведения и другими настройками можно через приложение или с помощью кнопок.",
+        "price": 15000,
+        "quantity": 0,
+        "image": "products_images/samsung_buds_2_pro.jpg",
+        "stripe_product_price_id": "price_1OsvVpDuLiGSlCjACDANelra",
+        "category": 3
+    }
+},
+{
+    "model": "products.product",
+    "pk": 18,
+    "fields": {
+        "name": "Проводная гарнитура Logitech G PRO X",
+        "description": "Проводная гарнитура Logitech G PRO X отличается высоким качеством звучания и удобством во время продолжительных игровых сеансов. Она позволяет наслаждаться детализированным и глубоким воспроизведением каждой игровой сцены. В гарнитуре реализована система 7.1 Virtual с динамиками 50 мм. Гибкий микрофон на подвижной штанге точно передает голос собеседнику.",
+        "price": 14000,
+        "quantity": 0,
+        "image": "products_images/logitech_g_pro_x_.jpg",
+        "stripe_product_price_id": "price_1OsvXLDuLiGSlCjAN2HSUT7F",
+        "category": 3
+    }
+},
+{
+    "model": "products.product",
+    "pk": 19,
+    "fields": {
+        "name": "Проводная гарнитура HyperX Cloud II KHX-HSCP-RD",
+        "description": "Проводная гарнитура HyperX Cloud II KHX-HSCP-RD – модель для самых взыскательных геймеров, которая обеспечит их беспрецедентным качеством звука в процессе прохождения различных игр. Достойное звуковое сопровождение является немаловажной составляющей в достижении виртуальных успехов, и для этого представленное устройство получило большие охватывающие амбушюры с 53-миллиметровыми динамическими излучателями и поддержкой расширенного диапазона частот 15-25000 Гц. Главной изюминкой наушников стало создание виртуального объемного звука Virtual Surround Sound 7.1. С ним просмотр фильмов и прослушивание музыки заиграют яркими красками, а в играх вы сможете точно определять местоположение своих оппонентов, чтобы нанести им удар еще до того, как они вас заметят.",
+        "price": 8500,
+        "quantity": 0,
+        "image": "products_images/hyperx_cloud_II_khx_hscp_rd.jpg",
+        "stripe_product_price_id": "price_1OsvZ8DuLiGSlCjA3OVJMW9A",
+        "category": 3
+    }
+},
+{
+    "model": "products.product",
+    "pk": 20,
+    "fields": {
+        "name": "Наушники TWS HUAWEI FreeClip",
+        "description": "Наушники TWS HUAWEI FreeClip с креплением на клипсы удобны для спорта и активного образа жизни. Дизайн True Wireless Stereo с подключением по Bluetooth избавляет от ненужных проводов. Встроенный микрофон с шумоподавлением позволяет использовать наушники в качестве гарнитуры для разговоров по телефону. Модель выдерживает до 8 ч активной работы или 36 ч при зарядке от кейса.",
+        "price": 17000,
+        "quantity": 0,
+        "image": "products_images/huawei_freeclip.jpg",
+        "stripe_product_price_id": "price_1OsvaYDuLiGSlCjAx9lsbKZ3",
+        "category": 3
+    }
+},
+{
+    "model": "products.product",
+    "pk": 21,
+    "fields": {
+        "name": "Проводная гарнитура Apple EarPods",
+        "description": "Проводная гарнитура Apple EarPods (3.5 mm) подключается к устройствам по кабелю с разъемом jack 3.5 мм. Динамические излучатели формируют направленный звук с четкой передачей деталей в частотном диапазоне 20-20000 Гц. Обтекаемая форма пластиковых вкладышей повторяет геометрию ушной раковины, что обеспечивает эргономичность в использовании Apple EarPods (3.5 mm) и отсутствие дискомфорта. Интегрированный микрофон на проводе четко передает голос собеседнику. Пульт позволяет регулировать громкость, управлять воспроизведением и звонками.",
+        "price": 2000,
+        "quantity": 0,
+        "image": "products_images/apple_earpods.jpg",
+        "stripe_product_price_id": "price_1OsvcEDuLiGSlCjALn2CGPRl",
+        "category": 3
+    }
+},
+{
+    "model": "products.product",
+    "pk": 22,
+    "fields": {
+        "name": "Bluetooth-гарнитура Xbox Wireless Headset",
+        "description": "Bluetooth-гарнитура Xbox Wireless Headset обеспечивает высокий уровень реалистичности воспроизводимого звука и погружение в захватывающий игровой мир. Она разработана с учетом особенностей игровых консолей Xbox Series X/S. Подвижный микрофон отвечает за чистую передачу голоса без искажений и легко снимается при необходимости.\r\nXbox Wireless Headset подключаются посредством технологии Bluetooth. Мягкие охватывающие амбушюры и регулируемое оголовье гарантируют комфортное расположение гарнитуры.",
+        "price": 10000,
+        "quantity": 0,
+        "image": "products_images/xbox_wireless_headset.jpg",
+        "stripe_product_price_id": "price_1OsvdwDuLiGSlCjAPnjWPkI6",
+        "category": 3
+    }
+},
+{
+    "model": "products.product",
+    "pk": 23,
+    "fields": {
+        "name": "Ноутбук MSI Katana 17 B11UCX-897XRU",
+        "description": "Ноутбук MSI Katana 17 B11UCX-897XRU создан для запуска компьютерных игр и продуктивной работы с требовательными графическими программами. Высокий вычислительный потенциал обеспечивают процессор Intel Core i5-11260H и видеокарта GeForce RTX 2050 от NVIDIA. Для быстродействия системы задействованы 8 ГБ оперативной памяти и накопитель SSD объемом 256 ГБ. Система охлаждения с общими тепловыми трубками для центрального и графического процессора поддерживает низкую температуру нагрева.",
+        "price": 70000,
+        "quantity": 0,
+        "image": "products_images/msi_katana_17_b11ucx_897xru.jpg",
+        "stripe_product_price_id": "price_1Osvm3DuLiGSlCjADzTIHIvH",
+        "category": 4
+    }
+},
+{
+    "model": "products.product",
+    "pk": 24,
+    "fields": {
+        "name": "Ноутбук MSI GF76 Katana 17 B12VEK-268XRU",
+        "description": "Ноутбук MSI GF76 Katana 17 B12VEK-268XRU соответствует требованиям геймеров. В нем сочетаются мощная аппаратная платформа, продуманная эргономика и технологичность. Высокая производительность в играх достигается благодаря процессору Intel Core i5, графическому адаптеру GeForce RTX 4050 от NVIDIA, 16 ГБ оперативной памяти и накопителю SSD на 512 ГБ. Стабильный режим при любых нагрузках обеспечивается эффективной системой охлаждения.",
+        "price": 83000,
+        "quantity": 0,
+        "image": "products_images/msi_gf76_katana_17_b12vek_268xru.jpg",
+        "stripe_product_price_id": "price_1OsvnzDuLiGSlCjA0nzFfw3k",
+        "category": 4
+    }
+},
+{
+    "model": "products.product",
+    "pk": 25,
+    "fields": {
+        "name": "Ноутбук ASUS Vivobook Go 15 E1504FA-BQ533",
+        "description": "Ноутбук ASUS Vivobook Go 15 E1504FA-BQ533 выполнен в тонком корпусе черного цвета с диагональю экрана 15.6\". Его дисплей раскрывается на 180 градусов, что делает устройство удобным для просмотра видео большой компанией. IPS-экран демонстрирует четкую картинку, не искажая цвета, благодаря широким углам обзора. Разрешение Full-HD (1920x1080) позволяет комфортно смотреть видео в Интернете в любых форматах.",
+        "price": 50000,
+        "quantity": 0,
+        "image": "products_images/asus_vivobook_go_15_e1504fa.jpg",
+        "stripe_product_price_id": "price_1OsvpSDuLiGSlCjAvyBZOG1J",
+        "category": 4
+    }
+},
+{
+    "model": "products.product",
+    "pk": 26,
+    "fields": {
+        "name": "Ноутбук AORUS 17 BSF",
+        "description": "Ноутбук AORUS 17 BSF создан для гейминга и работы с графическими программами. Благодаря частоте обновления до 240 Гц и технологии сглаживания DLSS изображение передается плавно без задержек. Высокая производительность платформы обеспечивается процессором Intel Core i7-13700H, графическим адаптером GeForce RTX 4070 и 16 ГБ оперативной памяти стандарта DDR5. Система охлаждения поддерживает низкую температуру нагрева компонентов при разной вычислительной нагрузке.",
+        "price": 180000,
+        "quantity": 0,
+        "image": "products_images/aorus_17_bsf.jpg",
+        "stripe_product_price_id": "price_1OsvqwDuLiGSlCjA3ssVZXZK",
+        "category": 4
+    }
+},
+{
+    "model": "products.product",
+    "pk": 27,
+    "fields": {
+        "name": "Ноутбук ARDOR GAMING NEO G17-I7ND315",
+        "description": "Ноутбук ARDOR GAMING NEO G17-I7ND315 с экраном диагональю 17.3 дюйма обеспечивает комфорт использования. Благодаря производительному процессору Intel Core i7-12650H и видеокарте GeForce RTX 4060 он способен обрабатывать требовательные задачи – редактирование графики, просмотр мультимедиа, запуск игр. Для быстродействия в ноутбуке задействованы 16 ГБ оперативной памяти стандарта DDR5 и накопитель SSD объемом 1000 ГБ.",
+        "price": 100000,
+        "quantity": 0,
+        "image": "products_images/ardor_gaming_neo_g17_i7nd315.jpg",
+        "stripe_product_price_id": "price_1OsvshDuLiGSlCjAkHGnJOtv",
+        "category": 4
+    }
+},
+{
+    "model": "products.product",
+    "pk": 28,
+    "fields": {
+        "name": "Ноутбук HUAWEI MateBook D 15 BoDE-WFH9",
+        "description": "Ноутбук HUAWEI MateBook D 15 BoDE-WFH9 выполнен в классическом стиле и предлагает все необходимые функции для продуктивного решения разных задач. Аппаратная платформа с процессором Intel Core i5, 16 ГБ оперативной памяти и накопителем SSD 512 ГБ обеспечивает высокую производительность. Комфортный просмотр с реалистичным изображением обусловлен панелью IPS 15.6 дюймов с широкими углами обзора и матовой поверхностью.",
+        "price": 65000,
+        "quantity": 0,
+        "image": "products_images/huawei_matebook.jpg",
+        "stripe_product_price_id": "price_1OsvtyDuLiGSlCjAneOnvVpm",
+        "category": 4
+    }
+},
+{
+    "model": "products.product",
+    "pk": 29,
+    "fields": {
+        "name": "Ноутбук Machenike L15 Air Pulsar",
+        "description": "Этот ноутбук создан для тех, кто хочет получить компьютерное устройство с наиболее востребованным функционалом. Модель полностью удовлетворяет данным требованиям. Надежный накопитель предоставляет вам возможности для долговременного хранения необходимой виртуальной информации. Устройство оборудовано веб-камерой и микрофоном, благодаря которым вы сможете организовывать видеоконференции с партнерами по бизнесу и коллегами по работе.",
+        "price": 80000,
+        "quantity": 0,
+        "image": "products_images/machenike_l15_air_pulsar.jpg",
+        "stripe_product_price_id": "price_1OsvwiDuLiGSlCjARQdsBA57",
+        "category": 4
+    }
+},
+{
+    "model": "products.product",
+    "pk": 30,
+    "fields": {
+        "name": "Телевизор LED Xiaomi MI TV A2 55",
+        "description": "Благодаря безрамочному дизайну телевизор LED Xiaomi MI TV A2 55 с диагональю экрана 138 см создает эффект погружения. 4K-разрешение радует высокой детализацией и впечатляющим качеством. Технология Dolby Vision улучшает яркость и точность передачи цвета и малейших оттенков. Модель с 4-ядерным процессором обладает поддержкой MEMC, сохраняющей плавность динамичных сцен в фильмах и передачах.",
+        "price": 37000,
+        "quantity": 0,
+        "image": "products_images/led_xiaomi_mi_tv_a2_55.jpg",
+        "stripe_product_price_id": "price_1OswKuDuLiGSlCjA1HZescSZ",
+        "category": 5
+    }
+},
+{
+    "model": "products.product",
+    "pk": 31,
+    "fields": {
+        "name": "Телевизор LED DEXP 43UCY1",
+        "description": "Телевизор LED DEXP 43UCY1 с платформой SmartTV на ОС YaOS открывает доступ к широким возможностям, которые дает подключение к Интернету. Это просмотр фильмов и сериалов с «Кинопоиска», видеороликов с YouTube и онлайн-TV, запуск фирменных сервисов от Яндекс. Виртуальный ассистент «Алиса» на основе искусственного интеллекта умеет переключать каналы, отвечать на запросы, запускать браузер и контент, управлять «умным» домом с помощью голосовых команд..",
+        "price": 21000,
+        "quantity": 0,
+        "image": "products_images/led_dexp.jpg",
+        "stripe_product_price_id": "price_1OswNWDuLiGSlCjAgkbDKJqv",
+        "category": 5
+    }
+},
+{
+    "model": "products.product",
+    "pk": 32,
+    "fields": {
+        "name": "Телевизор LED TCL 55C755",
+        "description": "Телевизор LED TCL 55C755 основан на базе процессора AIPQ 3.0 Engine with AI SR и оснащен QLED-экраном диагональю 55 дюймов с антибликовым покрытием. Чистое объемное звучание ему обеспечивает акустическая система ONKYO. Геймеры оценят игровое меню с расширенными специально для них возможностями. Разрешение экрана способно достигать показателя 3840x2160 пикс., что соответствует формату 4K UltraHD. Частота обновления достигает 120 Гц. Операционная система Google TV дополнена голосовым помощником. Это означает, что для управления LED TCL 55C755 не обязательно использовать пульт или смартфон.",
+        "price": 85000,
+        "quantity": 0,
+        "image": "products_images/lrd_tlc.jpg",
+        "stripe_product_price_id": "price_1OswOhDuLiGSlCjAydLqpSd8",
+        "category": 5
+    }
+},
+{
+    "model": "products.product",
+    "pk": 33,
+    "fields": {
+        "name": "Телевизор LED TCL 65C645",
+        "description": "Телевизор LED TCL 65C645 диагональю 163 см поддерживает возможность управления через голосового ассистента Google. Углы обзора 178° не допускают искажения трансляции при просмотре с большого расстояния. Активация TimeShift позволяет записать контент на внешний носитель. Синхронизация периферии производится через Bluetooth-интерфейс.",
+        "price": 60000,
+        "quantity": 0,
+        "image": "products_images/led_tcl_65c645.jpg",
+        "stripe_product_price_id": "price_1OswPzDuLiGSlCjAEjiSI1LH",
+        "category": 5
+    }
+},
+{
+    "model": "products.product",
+    "pk": 34,
+    "fields": {
+        "name": "Телевизор LED TCL 32S5400",
+        "description": "Телевизор LED TCL 32S5400 представлен в черном корпусе с 32-дюймовым экраном Direct LED. FullHD-разрешение радует красочным и реалистичным изображением. Технологии HDR10 и HLG улучшают яркость, насыщенность цветов и детализацию теней. Динамики с мощностью 16 Вт дополнены декодером Dolby Audio для создания глубокого и объемного звучания без использования сторонней акустики.",
+        "price": 17000,
+        "quantity": 0,
+        "image": "products_images/led_tcl_32s5400.jpg",
+        "stripe_product_price_id": "price_1OswRADuLiGSlCjAPD0A4gRo",
+        "category": 5
+    }
+},
+{
+    "model": "products.product",
+    "pk": 35,
+    "fields": {
+        "name": "Телевизор LED TCL 65C735",
+        "description": "Телевизор LED TCL 65C735 привлекает внимание элегантным дизайном со съемной центральной подставкой и огромным 65-дюймовым экраном с 4K-разрешением. Встроенные технологии HDR улучшают яркость и передачу цвета, позволяют легко рассматривать оттенки, детали в светлых и темных сценах. Динамики с объемным многоканальным звуком доставляют максимум удовольствия от просмотра любимых фильмов.",
+        "price": 74000,
+        "quantity": 0,
+        "image": "products_images/led_tcl_65c735.jpg",
+        "stripe_product_price_id": "price_1OswTnDuLiGSlCjAHQzdKhKH",
+        "category": 5
+    }
+},
+{
+    "model": "products.product",
+    "pk": 36,
+    "fields": {
+        "name": "Телевизор LED TCL 55P745",
+        "description": "Телевизор LED TCL 55P745 в черном корпусе с узкой рамкой и 55-дюймовым экраном обладает 4K-разрешением. Технологии Dolby Vision, HDR10 и HLG делают картинку более красочной, реалистичной и детальной. Динамики на 19 Вт с декодером Dolby Atmos создают эффект объемного звучания без подключения саундбара и прочей акустики.\r\nФирменные технологии DLG и 120 Гц Game Accelerator запускают игры с приставок без понижения качества и задержек динамичных сцен. Алгоритм MEMC и частота обновления 120 Гц гарантируют плавный игровой процесс и точное управление персонажем. ОЗУ 2 ГБ не дает ТВ тормозить при одновременной работе в нескольких программах и просмотре длинных фильмов в 4K-формате.",
+        "price": 37000,
+        "quantity": 0,
+        "image": "products_images/led_tcl_55p745.jpg",
+        "stripe_product_price_id": "price_1OswVCDuLiGSlCjArMmxCfHp",
+        "category": 5
+    }
+},
+{
+    "model": "products.product",
+    "pk": 37,
+    "fields": {
+        "name": "Планшет Xiaomi Pad 6 Wi-Fi 256 ГБ",
+        "description": "Планшет Xiaomi Pad 6 Wi-Fi черного цвета имеет диагональ экрана 11\" и использует Android 13.x, что раскрывает огромный потенциал устройства. Благодаря процессору Qualcomm Snapdragon 870 с 8-ядерной архитектурой аппарат справляется с любыми задачами. Он не подтормаживает и не зависает под нагрузкой и в многозадачном режиме. В тандеме с ОЗУ объемом 8 ГБ процессор обеспечивает стабильную работу при высокой производительности и быстродействии.",
+        "price": 40000,
+        "quantity": 0,
+        "image": "products_images/xiaomi_pad_6_iSWZz7X.jpg",
+        "stripe_product_price_id": "price_1OswXxDuLiGSlCjACtS4UcV8",
+        "category": 6
+    }
+},
+{
+    "model": "products.product",
+    "pk": 38,
+    "fields": {
+        "name": "Планшет Apple iPad (9th Gen) Wi-Fi 64 ГБ",
+        "description": "Планшет Apple iPad (2021) Wi-Fi 64 ГБ сочетает стильный дизайн и мощные характеристики. В его основе содержатся процессор A13 Bionic и 3 ГБ оперативной памяти, которые обеспечивают производительность и быстродействие системы при выполнении различных задач. Планшет выполнен в металлическом тонком корпусе серого цвета и оборудован дисплеем Retina 10.2 дюйма (2160x1620 пикселей), отображающим картинку завораживающей четкости.\r\nКамера 8 Мп на тыловой стороне способна запечатлевать качественные фото и видео, а также умеет сканировать документы. Фронтальная широкоугольная камера позволяет делать реалистичные селфи или групповые снимки.",
+        "price": 30000,
+        "quantity": 0,
+        "image": "products_images/apple_ipad_9th_gen.jpg",
+        "stripe_product_price_id": "price_1OswZpDuLiGSlCjAdvO66aPo",
+        "category": 6
+    }
+},
+{
+    "model": "products.product",
+    "pk": 39,
+    "fields": {
+        "name": "Планшет HUAWEI MatePad 11 (2023) Wi-Fi 128 ГБ",
+        "description": "Планшет HUAWEI MatePad 11 (2023) Wi-Fi 128 ГБ выполнен в пластиковом корпусе с задней панелью серого цвета. На экране диагональю 10.95\" с разрешением 2560x1600 пикселей и матрицей IPS отображается красочная картинка. Быстродействие системы обеспечивается 8-ядерным процессором Qualcomm Snapdragon 865 и 6 ГБ оперативной памяти. Частота обновления 120 Гц гарантирует плавность открытия веб-страниц и запуска мультимедийного контента.\r\nАкустическая система с 4 динамиками формирует насыщенный звук для погружения.",
+        "price": 25000,
+        "quantity": 0,
+        "image": "products_images/huawei_matepad_11_RGCYYVu.jpg",
+        "stripe_product_price_id": "price_1OswcDDuLiGSlCjA2LPoQpji",
+        "category": 6
+    }
+},
+{
+    "model": "products.product",
+    "pk": 40,
+    "fields": {
+        "name": "Планшет Xiaomi Pad 5 Wi-Fi 256 ГБ",
+        "description": "Планшет Xiaomi Pad 5 Wi-Fi диагональю 11\" выполнен в сером корпусе и создан для развлечений. Он демонстрирует высокую мощь в играх, позволяет комфортно работать с сайтами, смотреть видео, обрабатывать фото благодаря чипу Qualcomm Snapdragon 860. Наряду с 6 ГБ ОЗУ он обеспечивает высокое быстродействие системы.\r\nЕмкость батареи на уровне 8720 мА·ч, позволяет Xiaomi Pad 5 Wi-Fi работать долгое время. Планшет не нужно каждый день заряжать, даже если вы используете его для воспроизведения музыки или просмотра видео. В качестве надежной платформы для хранения информации используется внутренний накопитель объемом 256 ГБ.",
+        "price": 34000,
+        "quantity": 0,
+        "image": "products_images/xiaomi_pad_5_nQubuu7.jpg",
+        "stripe_product_price_id": "price_1OswduDuLiGSlCjAuAmmJ4mf",
+        "category": 6
+    }
+},
+{
+    "model": "products.product",
+    "pk": 41,
+    "fields": {
+        "name": "Планшет Samsung Galaxy Tab S9 FE 5G 256 ГБ",
+        "description": "Планшет Samsung Galaxy Tab S9 FE 5G получил поддержку функции Dual SIM. С ее помощью можно за пару касаний активировать и сделать основной eSIM. При смене устройства сохраненные на нее контакты не потеряются, благодаря чему ваши друзья не останутся без внимания. Быстрая и плавная работа устройства при запуске ресурсоемких приложений и в режиме многозадачности обеспечивается 8-ядерным процессором Samsung Exynos 1380 и 8 ГБ оперативной памяти. Долговременное хранилище данных емкостью 256 ГБ можно дополнить картой памяти, если вам требуется еще больше места для хранения файлов.",
+        "price": 58000,
+        "quantity": 0,
+        "image": "products_images/samsung_galaxy_tab_s9_2dEdeYf.jpg",
+        "stripe_product_price_id": "price_1OswfODuLiGSlCjAYjhTPoMc",
+        "category": 6
+    }
+},
+{
+    "model": "products.product",
+    "pk": 42,
+    "fields": {
+        "name": "Планшет HONOR Pad 9 Wi-Fi 256 ГБ",
+        "description": "HONOR Pad 9 получил 12,1-дюймовый дисплей с разрешением 2560x1600 пикселей и яркостью до 500 нит. За производительность отвечает процессор Snapdragon 6 Gen 1 в сочетании с 8 ГБ оперативной памяти, а за автономность — аккумулятор на 8300 мАч с быстрой 35-ваттной зарядкой. В тонком (6,9 мм) корпусе также разместились восемь динамиков, основная камера на 13 Мп с функцией записи 4K-видео и фронтальная камера с датчиком на 8 Мп",
+        "price": 30000,
+        "quantity": 0,
+        "image": "products_images/honor_pad_9_qoOSund.jpg",
+        "stripe_product_price_id": "price_1OswgpDuLiGSlCjAZn04d0cY",
+        "category": 6
+    }
+},
+{
+    "model": "products.product",
+    "pk": 44,
+    "fields": {
+        "name": "Планшет Apple iPad Air (5th Gen) Wi-Fi 64 ГБ",
+        "description": "Великолепный дисплей Liquid Retina 10,9 дюйма. Инновационный чип Apple M1 обеспечивает более высокую производительность, превращая Ipad Air в мощный инструмент для творчества и мобильных игр. Технология Touch ID, передовые камеры, сверхскоростная беспроводная связь, разъём USB-C, а еще поддержка клавиатуры Magic Keyboard и Apple Pencil (2-го поколения).",
+        "price": 65000,
+        "quantity": 0,
+        "image": "products_images/apple_ipad_air_5th_gen_55sDMtm.jpg",
+        "stripe_product_price_id": "price_1OswiRDuLiGSlCjAFCCT2o1L",
+        "category": 6
+    }
+},
+{
+    "model": "products.product",
+    "pk": 45,
+    "fields": {
+        "name": "Игровая консоль PlayStation 5",
+        "description": "Игровая консоль PlayStation 5 помогает полностью погрузиться в реалистичность виртуального мира с насыщенными отражениями и тенями. Платформа с 8-ядерным процессором AMD Ryzen Zen 2, графической системой Radeon RDNA 2, 16 ГБ оперативной памяти и накопителем SSD объемом 825 ГБ обеспечивает быстродействие в играх и плавность отображения динамичного контента. Консоль предусматривает подключение к телевизору 4K/8K и имеет частоту обновления кадров 120 Гц.",
+        "price": 60000,
+        "quantity": 0,
+        "image": "products_images/playstation_5.jpg",
+        "stripe_product_price_id": "price_1Ot4h2DuLiGSlCjABevuTxJX",
+        "category": 8
+    }
+},
+{
+    "model": "products.product",
+    "pk": 46,
+    "fields": {
+        "name": "Игровая консоль PlayStation 4 Slim",
+        "description": "Игровая консоль PlayStation 4 Slim представлена в стильном черном корпусе с дисководом и поддержкой FullHD. Мощный ЦП с ОЗУ 8 ГБ GDDR5 гарантирует быструю загрузку, а HDD-диск на 500 ГБ – удобное сохранение любимых игр. Подключение к ТВ через HDMI 1.4 обеспечивает стабильный сигнал аудио/видео без задержек и торможения.\r\nPlayStation 4 Slim – развлекательная площадка для всей семьи с доступом ко множеству игр на любой вкус.",
+        "price": 40000,
+        "quantity": 0,
+        "image": "products_images/playstation_4_slim.jpg",
+        "stripe_product_price_id": "price_1Ot4iCDuLiGSlCjAmJFzflnf",
+        "category": 8
+    }
+},
+{
+    "model": "products.product",
+    "pk": 47,
+    "fields": {
+        "name": "Игровая консоль Microsoft Xbox Series X",
+        "description": "Игровая консоль Microsoft Xbox Series X способна впечатлять минимальным временем загрузки и завораживающими визуальными эффектами при воспроизведении игр с частотой до 120 кадров в секунду. Благодаря процессору AMD Zen 2 с частотой 3.8 ГГц и 16 ГБ оперативной памяти обеспечивается быстродействие системы. Внутреннее хранилище представлено накопителем емкостью 1 ТБ. Коммуникационные возможности Microsoft Xbox Series X реализованы технологией Wi-Fi, тремя портами USB 3.1, видеовыходом HDMI. В комплекте с игровой консолью поставляется фирменный беспроводной контроллер.",
+        "price": 53000,
+        "quantity": 0,
+        "image": "products_images/microsoftxbox_series_x.jpg",
+        "stripe_product_price_id": "price_1Ot4kKDuLiGSlCjAcpYSK6Gg",
+        "category": 8
+    }
+},
+{
+    "model": "products.product",
+    "pk": 48,
+    "fields": {
+        "name": "Игровая консоль Microsoft Xbox Series S",
+        "description": "Игровая консоль Microsoft Xbox Series S отличается компактными размерами и позволяет погрузиться в увлекательные игры с завораживающими визуальными эффектами при частоте 120 кадров в секунду. Высокая производительность достигается благодаря процессору AMD Zen 2 и 10 ГБ оперативной памяти, а для хранения целой коллекции игр предлагается накопитель SSD объемом 512 ГБ. Коммуникационные возможности Microsoft Xbox Series S представлены технологией Wi-Fi, тремя портами USB 3.1, видеовыходом HDMI. В наборе с игровой консолью поставляется фирменный беспроводной контроллер.",
+        "price": 34000,
+        "quantity": 0,
+        "image": "products_images/microsoft_xbox_series_s.jpg",
+        "stripe_product_price_id": "price_1Ot4lNDuLiGSlCjAWAHBi3ww",
+        "category": 8
+    }
+},
+{
+    "model": "products.product",
+    "pk": 49,
+    "fields": {
+        "name": "Игровая консоль Nintendo Switch OLED",
+        "description": "Игровая консоль Nintendo Switch OLED в белом корпусе оснащена ярким 7-дюймовым экраном с разрешением 1280x720 dpi. Контроллеры Joy-Con с гироскопом и акселерометром радуют удобным и гибким управлением. Широкая регулируемая опора позволяет ставить консоль на стол в виде небольшого экрана. Док-станция с портами LAN и HDMI обеспечивает проводной доступ к сети Интернет, подключение к ТВ без потери качества.",
+        "price": 38000,
+        "quantity": 0,
+        "image": "products_images/nintendo_switch.jpg",
+        "stripe_product_price_id": "price_1Ot4nTDuLiGSlCjANPDyGIMh",
+        "category": 8
+    }
+}
+]

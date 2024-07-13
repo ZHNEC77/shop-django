@@ -1,0 +1,58 @@
+[
+{
+    "model": "products.productcategory",
+    "pk": 1,
+    "fields": {
+        "name": "Смартфоны",
+        "description": ""
+    }
+},
+{
+    "model": "products.productcategory",
+    "pk": 2,
+    "fields": {
+        "name": "Смарт-часы и браслеты",
+        "description": ""
+    }
+},
+{
+    "model": "products.productcategory",
+    "pk": 3,
+    "fields": {
+        "name": "Наушники и гарнитуры",
+        "description": ""
+    }
+},
+{
+    "model": "products.productcategory",
+    "pk": 4,
+    "fields": {
+        "name": "Ноутбуки",
+        "description": ""
+    }
+},
+{
+    "model": "products.productcategory",
+    "pk": 5,
+    "fields": {
+        "name": "Телевизоры",
+        "description": ""
+    }
+},
+{
+    "model": "products.productcategory",
+    "pk": 6,
+    "fields": {
+        "name": "Планшеты",
+        "description": ""
+    }
+},
+{
+    "model": "products.productcategory",
+    "pk": 8,
+    "fields": {
+        "name": "Консоли",
+        "description": ""
+    }
+}
+]
