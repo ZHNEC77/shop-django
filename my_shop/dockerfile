@@ -1,0 +1,14 @@
+FROM python:3.11.4
+
+ENV PYTHONUNBUFFERED=1
+ENV PYTHONDONTWRITEBYTECODE=1
+
+RUN mkdir /web_my_shop
+
+WORKDIR /web_my_shop
+
+COPY requirements.txt /web_my_shop/
+
+RUN pip install --upgrade pip && pip install -r requirements.txt
+
+ADD . /web_my_shop/ 

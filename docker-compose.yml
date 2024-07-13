@@ -1,0 +1,38 @@
+services:
+
+  web:
+    build: ./my_shop
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/web_my_shop
+      - static:/web_my_shop/static
+      - media:/web_my_shop/media
+    ports:
+      - '8000:8000'
+    depends_on:
+      - pg
+      - redis
+  
+  
+  pg:
+    env_file: ".env"
+    image: postgres
+    container_name: postgres_container
+    environment:
+      POSTGRES_DB: "${DATABASE_NAME}"
+      POSTGRES_USER: "${DATABASE_USER}"
+      POSTGRES_PASSWORD: "${DATABASE_PASSWORD}"
+    ports:
+      - "${DATABASE_PORT}:5432"
+    
+    
+  redis:
+    env_file: ".env"
+    image: redis
+    container_name: redis_container
+    environment:
+      REDIS_PASSWORD=${REDIS_PASSWORD}
+      REDIS_USER=${REDIS_USER}
+      REDIS_USER_PASSWORD=${REDIS_USER_PASSWORD}
+    ports:
+      - "${REDIS_PORT}:6379"

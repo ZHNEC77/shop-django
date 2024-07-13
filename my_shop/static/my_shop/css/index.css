@@ -1,0 +1,10 @@
+body{
+    background: url("../images/index.jpg") no-repeat center top fixed;
+    background-size: cover;
+    padding-top: 70px;
+}
+
+#start-link {
+    text-decoration: none;
+    color: white;
+}
