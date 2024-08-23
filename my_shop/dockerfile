@@ -9,6 +9,6 @@ WORKDIR /web_my_shop
 
 COPY requirements.txt /web_my_shop/
 
-RUN pip install --upgrade pip && pip install -r requirements.txt
+RUN pip install --upgrade pip && pip install -r requirements.txt && celery -A my_shop  worker --loglevel=Info -P eventlet
 
 ADD . /web_my_shop/ 
